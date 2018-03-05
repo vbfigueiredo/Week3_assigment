@@ -1,0 +1,276 @@
+
+/* Sets more sensible box model sizing */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+/* To be used on the parent of floated elements */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+body {
+	font-family: Open Sans;
+	width: 100%;
+	margin: 0;
+	background: #f0efef;
+	color: #606161;
+}
+/* nav styles */
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
+nav ul {
+	text-align: right;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-right: 90px;
+	border-bottom: 30px;
+	background-color: #033048;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+   	margin: 5%;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 30px;
+	padding-top: 10px;
+	font-family: Open Sans;
+	font-size: 1.3em;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #033048;
+	display: block;
+
+}
+
+nav li a {
+	text-decoration: none;
+	color: yellow;
+}
+
+h2 {
+	display: inline;
+	color: #033048;
+}
+h3 {
+	font-size: 1.5em;
+	color: #033048;
+}
+
+main {
+	background-color: #f0efef;
+}
+
+aside {
+	background-color: #f0efef;
+	padding-left: 20px;
+}
+
+aside li a {
+	text-decoration: none;
+	color: black;
+}
+.column p::first-letter {
+    font-size: 250%;
+    color: #606161;
+    line-height: 100%;
+    
+}
+
+p {
+	font-size: 1.3em;
+}
+
+.aboutrelaxr {
+	padding-bottom: 30px;
+	padding-top: 35px;
+}
+
+
+.image1 {
+	height: 150px;
+	width: 200px;
+	background: url(./images/blog_photo1.jpg) no-repeat cover;
+	margin: 0;
+	padding: 0;
+}
+
+.adunit {
+	padding-top: 40px;
+}
+
+/* Additional grid styles */
+.column {
+	float: left;
+}
+
+.canoepic, .canoeempty {
+	width: 95%;
+	padding: 30px 0;
+}
+
+.column:last-child {
+	margin-right: 0;
+}
+
+.two-columns,
+.three-columns.has-sidebars .column {
+	height: 400px;
+	
+}
+
+.two-columns.has-sidebar .column:first-child {
+	width: 80%;
+}
+
+.two-columns.has-sidebar .column:last-child {
+	width: 20%;
+}
+
+.post1 {
+	padding-left: 95px;
+	padding-top: 50px;
+	font-family: Open Sans;
+}
+.post2 {
+	padding-left: 95px;
+	padding-top: 50px;
+	font-family: Open Sans;
+}
+.post1 h2 {
+	font-family: Open Sans;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.post2 h2 {
+	font-family: Open Sans;
+	font-size: 3em;
+	font-weight: normal;
+}
+.post2 p {
+	text-align: justify;
+}
+
+.relaxrwht {
+	float: left;
+	color: white;
+	font-size: 3em;
+	padding-left: 95px;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.ulaside {
+	font-size: 1.3em;
+}
+
+.pabout {
+	font-size: 1.3em;
+	padding-right: 30px;
+	margin-bottom: 10px;
+}
+
+.learn {
+	color: #033048;
+	text-decoration: none;
+}
+
+.readmore {
+	text-decoration: none;
+	color: #033048;
+	float: right;
+}
+
+/*footer styles */
+
+footer {
+	clear: left;
+}
+
+.yellowline {
+	width: 100%;
+	height: 15vh;
+	background-color: #f9e42e;
+
+}
+.sgnupbtn {
+	margin: 0;
+	text-align: center;
+	position: relative;
+	padding-left: 0%;
+	padding-top: 3%;
+}
+
+.sgnupbtn a {
+	text-decoration: none;
+	padding: 15px 85px;
+	background-color: #033048;
+	color: white;
+	border-radius: 10px;
+}
+
+.blackfooter {
+	width: 100%;
+	background-color: rgb(46, 46, 46);
+}
+
+.yellowrelax {
+	margin: 0;
+	color: yellow;
+	position: relative;
+	padding-left: 45%;
+	padding-top: 3%;
+	font-size: 3em;
+}
+
+.favicon {
+	position: relative;
+	font-size: 4em;
+	color: white;
+	padding-left: 44.5%;
+	padding-top: 3%;
+}
+
+.fa-facebook-f {
+	margin-left: 30px;
+}
+
+.copyright {
+	position: relative;
+	font-size: 1.5em;
+	color: white;
+	padding: 50px 0 3px 41%;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
